@@ -1,37 +1,10 @@
-[04:51:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:51:37] [ServerMain/INFO]: No existing world data, creating new world
-[04:51:38] [ServerMain/INFO]: Loaded 1290 recipes
-[04:51:38] [ServerMain/INFO]: Loaded 1399 advancements
-[04:51:39] [Server thread/INFO]: Starting minecraft server version 1.21
-[04:51:39] [Server thread/INFO]: Loading properties
-[04:51:39] [Server thread/INFO]: Default game type: SURVIVAL
-[04:51:39] [Server thread/INFO]: Generating keypair
-[04:51:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:51:39] [Server thread/INFO]: Using epoll channel type
-[04:51:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:51:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:51:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:51:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:51:39] [Server thread/INFO]: Preparing level "world"
-[04:51:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:51:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[04:51:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[04:51:46] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[04:51:46] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[04:51:47] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[04:51:47] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[04:51:48] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[04:51:48] [Worker-Main-1/INFO]: Preparing spawn area: 24%
-[04:51:49] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[04:51:49] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[04:51:50] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[04:51:50] [Server thread/INFO]: Time elapsed: 5227 ms
-[04:51:50] [Server thread/INFO]: Done (11.133s)! For help, type "help"
-[04:55:37] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[04:55:37] [Server thread/INFO]: 100.106.97.40<--[HERE]
-[04:55:37] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[04:55:37] [Server thread/INFO]: <--[HERE]
-[04:57:58] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[04:57:58] [Server thread/INFO]: op_aZedio7<--[HERE]
-[05:00:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[05:00:40] [Server thread/INFO]: start<--[HERE]
+[05:03:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:03:08] [ServerMain/ERROR]: Failed to start the minecraft server
+axt$a: /workspaces/MarronCraft/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at axt$a.a(SourceFile:95) ~[server-1.21.jar:?]
+	at axt.a(SourceFile:41) ~[server-1.21.jar:?]
+	at erf$c.<init>(SourceFile:374) ~[server-1.21.jar:?]
+	at erf.d(SourceFile:353) ~[server-1.21.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1.21.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
